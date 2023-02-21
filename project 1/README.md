@@ -14,7 +14,7 @@
 
 ## Task
 
-![alt](images/Q.png)
+![alt](snapshot/Q.png)
 
 ## Getting started
 
@@ -33,12 +33,12 @@
     ```bash
     terraform init
     ```
-    ![alt](images/2.png)
+    ![alt](snapshot/2.png)
     
     ```bash
     terraform apply
     ```
-    ![alt](images/3.png)
+    ![alt](snapshot/3.png)
 
 5. Navigate to Application directory.
 
@@ -83,5 +83,5 @@
     ``` 
 
 8. Open the cluster's services and hit the Loadbalancer Endpoint
-![alt](images/4.png)
-![alt](images/output.png)
+![alt](snapshot/4.png)
+![alt](snapshot/5.png)
