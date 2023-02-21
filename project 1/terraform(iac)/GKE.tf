@@ -50,7 +50,7 @@ resource "google_service_account" "kubernetes" {
 resource "google_project_iam_member" "sa-roles" {
   role = "roles/storage.objectViewer"
   member = "serviceAccount:${google_service_account.kubernetes.email}"
-  project  = "focused-bridge-317713"
+  project  = "black-hulling-377114"
 }
 
 resource "google_container_node_pool" "general" {
