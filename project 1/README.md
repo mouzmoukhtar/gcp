@@ -45,10 +45,10 @@
 6. Build Dockerfile and push image to GCR (Replace "focused-bridge-317713" with your project ID):
 
     ```bash
-    docker build . -t gcr.io/focused-bridge-317713/python-img:v3.0
+    docker build . -t gcr.io/black-hulling-377114/py-app
     ```
     ```bash
-    docker push gcr.io/focused-bridge-317713/python-img:v3.0
+    docker push gcr.io/black-hulling-377114/py-app
     ```
 
 ### Private VM Steps
