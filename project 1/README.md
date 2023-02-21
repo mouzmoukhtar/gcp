@@ -74,12 +74,12 @@
 
 7. Apply the Deployment in app-deplyment.yaml file
     ```bash
-    kubectl apply -f app-deplyment.yaml 
+    kubectl apply -f Python-app-deployment.yaml
     ``` 
 
 7. Create Loadbalancer service in the LB.yaml file
     ```bash
-    kubectl create -f LB.yaml
+    kubectl create -f Load-Blancer.yaml
     ``` 
 
 8. Open the cluster's services and hit the Loadbalancer Endpoint
