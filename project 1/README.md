@@ -10,7 +10,7 @@
 
 ## Flow Chart
 
-![alt](snaoshot/GCP-Draw-FinalTask.drawio.png)
+![alt](snapshot/GCP-Draw-FinalTask.drawio.png)
 
 ## Task
 
