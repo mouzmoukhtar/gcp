@@ -45,10 +45,10 @@
 6. Build Dockerfile and push image to GCR (Replace "focused-bridge-317713" with your project ID):
 
     ```bash
-    docker build . -t gcr.io/focused-bridge-317713/python-img:v3.0
+    docker build . -t gcr.io/black-hulling-377114/py-app
     ```
     ```bash
-    docker push gcr.io/focused-bridge-317713/python-img:v3.0
+    docker push gcr.io/black-hulling-377114/py-app
     ```
 
 ### Private VM Steps
@@ -74,12 +74,12 @@
 
 7. Apply the Deployment in app-deplyment.yaml file
     ```bash
-    kubectl apply -f app-deplyment.yaml 
+    kubectl apply -f Python-app-deployment.yaml
     ``` 
 
 7. Create Loadbalancer service in the LB.yaml file
     ```bash
-    kubectl create -f LB.yaml
+    kubectl create -f Load-Blancer.yaml
     ``` 
 
 8. Open the cluster's services and hit the Loadbalancer Endpoint
