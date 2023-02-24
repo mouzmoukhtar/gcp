@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Terraform Repository') {
             steps {
-                git 'https://github.com/Alii2121/GCP_Iac_DevOps_Demo.git'
+                git 'https://github.com/mouzmoukhtar/gcp.git'
             }
         }
         stage('Terraform Init') {
